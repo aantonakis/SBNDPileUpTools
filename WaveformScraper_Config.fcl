@@ -1,0 +1,26 @@
+BEGIN_PROLOG
+
+
+analyzeEvents:
+{
+  module_type:	"WaveformScraper"
+  PFParticleLabel: "pandora"
+  TrackLabel: "pandoraTrack"
+  ShowerLabel: "pandoraShower"
+  CalorimetryLabel: "pandoraCalo"
+  POTModuleLabel: "generator"
+  VertexModuleLabel: "pandora" 
+  GenieGenLabel: "generator"
+  HitModuleLabel: "gaushit"
+  CosmicTaggerLabel: "pandora"
+  OpT0FinderLabel: "opt0finder"
+  CrumbsResultLabel: "crumbs"
+   
+  PMTDecoderLabel: "pmtdecoder"
+  PMTDecoderInstanceLabel: "PMTChannels"
+  ##PMTDecoderInstanceLabel: "FTrigChannels"
+}
+
+END_PROLOG
+
+
