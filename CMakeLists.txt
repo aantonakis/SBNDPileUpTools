@@ -36,6 +36,7 @@ set(      MODULE_LIBRARIES larcorealg::Geometry
                            sbndcode_OpDetSim
         )
 cet_build_plugin(WaveformScraper art::Module SOURCE WaveformScraper_module.cc LIBRARIES ${MODULE_LIBRARIES} )
+cet_build_plugin(PMTPedestal art::Module SOURCE PMTPedestal_module.cc LIBRARIES ${MODULE_LIBRARIES} )
 # install_headers()
 install_fhicl()
 install_source()

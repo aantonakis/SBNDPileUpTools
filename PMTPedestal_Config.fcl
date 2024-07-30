@@ -1,0 +1,16 @@
+BEGIN_PROLOG
+
+
+analyzeEvents:
+{
+  module_type:	"PMTPedestal"
+   
+  PMTDecoderLabel: "pmtdecoder"
+  PMTDecoderInstanceLabel: "PMTChannels"
+  ##PMTDecoderInstanceLabel: "FTrigChannels"
+
+}
+
+END_PROLOG
+
+
